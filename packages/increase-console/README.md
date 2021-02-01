@@ -2,7 +2,23 @@
 
 Plugin for increasing console log
 
-# Usages
+## Installation
+
+Install the plugin with:
+
+```bash
+npm i babel-increase-console -D
+```
+
+Then add the plugin to babel config:
+
+```js
+{
+  "plugins": ["babel-increase-console"]
+}
+```
+
+## Usages
 
 ```js
 console.log(a) // output: console.log("a=", a);
