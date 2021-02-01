@@ -1,0 +1,13 @@
+{
+  "name": "simple-babel-plugins",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel ./examples/index.js"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.12.11",
+    "@babel/core": "^7.12.10",
+    "babel-cli": "^6.26.0"
+  }
+}

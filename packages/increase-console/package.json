@@ -1,0 +1,16 @@
+{
+  "name": "babel-increase-console",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "babel ../../examples/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-cli": "^6.26.0"
+  },
+  "files": [
+    "src"
+  ]
+}
