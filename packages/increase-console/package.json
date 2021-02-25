@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "babel ../../examples/index.js",
-    "changelog": "standard-version && standard-version -i CHANGELOG.zh-CN.md -o CHANGELOG.zh-CN.md"
+    "changelog": "standard-version && standard-version -i CHANGELOG.zh-CN.md -o CHANGELOG.zh-CN.md",
+    "version": "yarn changelog",
+    "publishing": "np"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
