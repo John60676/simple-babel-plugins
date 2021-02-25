@@ -1,14 +1,17 @@
 {
   "name": "babel-increase-console",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "./src/index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "babel ../../examples/index.js"
+    "dev": "babel ../../examples/index.js",
+    "changelog": "standard-version && standard-version -i CHANGELOG.zh-CN.md -o CHANGELOG.zh-CN.md"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "np": "^7.4.0",
+    "standard-version": "^9.1.1"
   },
   "files": [
     "src"
