@@ -1,5 +1,6 @@
-console.log(a)
+import "./index.scss";
+console.log(a);
 
 function name(params) {
-  console.log(params)
+  console.log(params);
 }
